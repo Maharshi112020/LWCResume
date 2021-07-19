@@ -1,0 +1,12 @@
+<template>
+    <section>
+        <h2 class="section_heading slds-var-p-bottom_medium">{educationData.HEADING}</h2>
+        <div>
+            <ul class="slds-var-m-top_medium slds-var-p-left_large summary_list slds-is-relative">
+                <template for:each={educationData.KEYS_POINTS} for:item="item">
+                    <li key={item} class="font16">{item}</li>
+                </template>
+            </ul>
+        </div>
+    </section>
+</template>
