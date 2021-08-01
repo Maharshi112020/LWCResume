@@ -84,6 +84,7 @@ export const LANGUAGES_DATA = {
 export const SKILLS_DATA = {
     HEADING: "SKILLS",
     LIST: [
+        "GOOGLING",
         "Apex",
         "Triggers",
         "SOQL",
